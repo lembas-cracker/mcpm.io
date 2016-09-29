@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "lint": "standard \"./**/*.js\"",
+    "test": "npm run lint",
     "start": "meteor run"
   },
   "dependencies": {
