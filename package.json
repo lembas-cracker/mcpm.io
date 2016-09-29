@@ -2,9 +2,13 @@
   "name": "mcpm.io",
   "private": true,
   "scripts": {
+    "lint": "standard \"./**/*.js\"",
     "start": "meteor run"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0"
+  },
+  "devDependencies": {
+    "standard": "^8.1.0"
   }
 }
